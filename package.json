@@ -1,0 +1,19 @@
+{
+  "name": "email-blast",
+  "version": "1.0.0",
+  "description": "Script to send email blasts using AWS SES",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.0.0",
+    "csv-parse": "^5.5.3",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
